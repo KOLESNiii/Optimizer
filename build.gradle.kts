@@ -3,8 +3,9 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm") version "2.0.21"
-    id("fabric-loom") version "1.7.1"
+    id("fabric-loom") version "1.8-SNAPSHOT"
     id("maven-publish")
+    id("org.jmailen.kotlinter") version "4.4.1"
 }
 
 version = project.property("mod_version") as String
